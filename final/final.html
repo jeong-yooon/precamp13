@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>회원가입</title>
+    <link href="./final.css " rel="stylesheet">
+    <script src="./final.js"></script>
+</head>
+<body>
+    <div class="background">
+        <div class="outline">
+            <div class="title">코드캠프 회원가입</div>
+            <div class="head">
+                <input class="blank" type="text" placeholder="이메일을 입력해 주세요.">
+                <input class="blank" type="text" placeholder="이름을 입력해 주세요.">
+                <input class="blank" type="password" placeholder="비밀번호를 입력해 주세요.">
+                <input class="blank" type="password" placeholder="비밀번호를 다시 입력해 주세요.">
+            </div>
+            <div class="body">
+                <div class="phone">
+                    <input id="phone1" class="phone_blank" type="text" oninput="changefocus1()" maxlength="3">
+                    <div class="phone_line"></div>
+                    <input id="phone2" class="phone_blank" type="text"oninput="changefocus2()" maxlength="4">
+                    <div class="phone_line"></div>
+                    <input id="phone3" class="phone_blank" type="text" maxlength="4">
+                </div>
+                <div class="send">
+                    <span class="auth" id="auth">000000</span>
+                    <button class="send_number" onclick="pressedBtn()">인증번호 전송</button>
+                </div>
+                <div class="confirm">
+                    <!-- <span id="countdown">60</span> -->
+                    <span id="countdown_min">03</span>
+                    <span>:</span>
+                    <span id="countdown_sec">00</span>
+                    <button class="success_confirm" id="success" onclick="pressedBtn2()">인증완료</button>
+                </div>
+                <div class="local"></div>
+                <div class="gender">
+                    <input type="radio" name="gender"> 여성 
+                    <input type="radio" name="gender"> 남성
+                </div>
+                <div class="line"></div>
+                <input class="bt" type="button" value="가입하기">
+            </div>
+        </div>
+    </body>
+</html>

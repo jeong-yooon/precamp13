@@ -1,0 +1,187 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+    padding: 20px 30px 30px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wrapper__header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header__title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.title{
+    color: #55b2d4;
+    font-size: 13px;
+    font-weight:700;
+}
+
+.subtitle{
+    font-size: 8px;
+    padding-left: 5px;
+}
+
+.divideLine{
+    width: 100%;
+    border-top: 1px solid gray;
+}
+
+.game__container{
+    width: 222px;
+    height: 168px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f6f6f6;
+}
+
+.game__title{
+    font-family: Malgun Gothic;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+}
+
+.game__subtitle{
+    display: flex;
+    font-family: Malgun Gothic;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#999999;
+}
+
+.word__text{
+    display: flex;
+}
+
+.textbox{
+    height: 24px;
+    width: 136px;
+    left: 436px;
+    top: 251px;
+    border-radius: 5px;
+    font-family: Malgun Gothic;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #999999;
+
+}
+
+.myword{
+    font-family: Malgun Gothic;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;    
+    color:#999999;
+}
+
+.search{
+    font-family: Malgun Gothic;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+    border-radius: 5px;
+    background-color: white;
+
+}
+
+.word__result{
+    font-family: Malgun Gothic;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#999999;
+
+}
+
+.game__title{
+    font-family: Malgun Gothic;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.number__result{
+    height: 21px;
+    width: 130px;
+    border: 1px solid black;
+    border-radius: 8px;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Malgun Gothic;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: center;
+    background-color: #FFE400;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+.mix{
+    height: 24px;
+    width: 62px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Malgun Gothic;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+}
